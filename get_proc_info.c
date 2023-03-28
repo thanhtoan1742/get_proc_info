@@ -32,7 +32,6 @@ struct proc_info {
 };
 
 struct procinfos {
-	long studentID;
 	struct proc_info proc;
 	struct proc_info parent_proc;
 	struct proc_info oldest_child_proc;
